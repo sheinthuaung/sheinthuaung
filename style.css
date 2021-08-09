@@ -1,39 +1,18 @@
+
 .header {
 	background: url('image/background.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-}
-.navbar{
-	position:fixed;
-	overflow: hidden;
-	width:100%;
-	background-color: #333;
-	top: 0;
-}
-.link{
-	padding: 10px 0;
-}
-.link li{
-	float: right;
-	padding: 0 10px;
+    background-attachment: fixed;
+    padding-top: 5px;
 }
 
-.link li a:hover{
-	color: #00c6d7;
-	font-size: 14px;
-	font-weight: bold;
-	text-decoration: none;
-}
-.link li a{
-	color: white;
-	font-size: 14px;
-	font-weight: bold;
-}
 .hbody{
-	padding: 275px 0 275px 0;
+	padding: 210px 0 335px 0;
 }
 .hbody h1,p{
+    padding-bottom: 10px;
 	color: white;
 	font-weight: bold;
 }
@@ -48,14 +27,7 @@
 	font-size: 40px;
 	letter-spacing: 1px;
 }
-.logo_text h1{
-	font-size: 25px;
-    color: #00c6d7;
-	font-size: 24px;
-    padding: 10px 0;
-}
-
-.b1{
+.header_button1{
 	border: 4px solid #00c6d7;
     color: white;
     background-color: #00c6d7;
@@ -65,9 +37,22 @@
     padding: 15px 40px;
     margin-top: 10px;
     margin-right: 15px;
+    transition-duration: 1.5s;
+}
+.header_button1:hover{
+	border: 4px solid white;
+    color: #333;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+
 }
 
-.b2{
+.header_button2{
 	border: 4px solid white;
     color: white;
     background-color: transparent;
@@ -77,4 +62,62 @@
     padding: 15px 40px;
     margin-top: 10px;
     margin-right: 15px;
+    transition-duration: 1.5s;
+}
+.header_button2:hover{
+	border: 4px solid #00c6d7;
+    color: #333;
+    background-color: #00c6d7;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #3B3B3B;
+    padding-right: 30px;
+  }
+  
+#navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+ }
+ 
+#navbar a:hover {
+    color: #00c6d7;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ 
+#navbar a.logo_text {
+    color: #00c6d7;
+    padding-left: 60px;
+    float: left;
+    font-size: 25px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.about{
+	background-color: #3B3B3B;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+.about_title h1 {
+	color: #00c6d7;
+	font-weight: bold;
+	font-size: 40px;
+	padding-bottom: 10px;
 }

@@ -3,39 +3,76 @@
         <title>Home</title>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     </head>
     <body>
+        
         <!-- header -->
         <div class="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 logo_text">
-                        <h1><b>Shein Thu Aung</b></h1>
-                    </div>
-                    <div class="col-md-7">
-                        <ul class="list-inline link">
-                            <li><a href="">CONTACT</a></li>
-                            <li><a href="">PORTFOLIO</a></li>
-                            <li><a href="">ABOUT</a></li>
-                            <li><a href="">HOME</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hbody text-center">
-                
-                <h1>DESIGN & DEVELOP</h1>
+            <div class="hbody text-center"> 
+                <h1>SHEIN THU AUNG</h1>
                 <p>
-                    
                     I design and code simple things beautifully.
                 </p>
                 <hr>
-                <button class="b1">What I do</button>
-                <button class="b2">Say Hello</button>
+                <button class="header_button1">What I do</button>
+                <button class="header_button2">Say Hello</button>
             </div>
         </div>
+        <div id="navbar">
+            <a href="">Contact</a>
+            <a href="">Project</a>
+            <a href="">About</a>
+            <a href="">Home</a>
+            <a class="logo_text" href="">SHEIN</a>
+            
+        </div>
+        
+        <!-- About Me -->
+        <div class="about">
+            <div class="container">
+                <div class="about_title text-center">
+                    <h1>About Me</h1>
+                    <hr>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellendus ut et unde delectus pariatur tempore fugit maiores voluptates laborum placeat quasi cum distinctio tempora vero beatae, debitis sit minus.</p>
+                </div>
+            </div>   
+        </div>
     </body>
+    <script>
+        window.onscroll = function() {stickyFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function stickyFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 </html>
