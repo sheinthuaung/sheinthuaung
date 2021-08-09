@@ -1,0 +1,80 @@
+.header {
+	background: url('image/background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.navbar{
+	position:fixed;
+	overflow: hidden;
+	width:100%;
+	background-color: #333;
+	top: 0;
+}
+.link{
+	padding: 10px 0;
+}
+.link li{
+	float: right;
+	padding: 0 10px;
+}
+
+.link li a:hover{
+	color: #00c6d7;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.link li a{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+.hbody{
+	padding: 275px 0 275px 0;
+}
+.hbody h1,p{
+	color: white;
+	font-weight: bold;
+}
+.hbody hr{
+	width: 220px;
+}
+.hbody p{
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.hbody h1{
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+.logo_text h1{
+	font-size: 25px;
+    color: #00c6d7;
+	font-size: 24px;
+    padding: 10px 0;
+}
+
+.b1{
+	border: 4px solid #00c6d7;
+    color: white;
+    background-color: #00c6d7;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.b2{
+	border: 4px solid white;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
