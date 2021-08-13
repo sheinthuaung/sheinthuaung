@@ -21,12 +21,17 @@
                 <button class="header_button2">Say Hello</button>
             </div>
         </div>
-        <div id="navbar">
-            <a class="logo_text" href="">SHEIN</a>
-            <a href="">Contact</a>
-            <a href="">Project</a>
-            <a href="">About</a>
-            <a href="">Home</a>
+
+        <!-- Navigation Bar -->
+        <div class='navigation' id="navbar">
+            
+            <ul class="list-inline link">
+                <a class="logo_text" href="">SHEIN</a>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HOME</a></li>
+            </ul>
         </div>
         
         <!-- About Me -->
@@ -43,10 +48,8 @@
                             I was born in Myanmar and I am 22 now. Graduated from James Cook University (Singapore) at 2020 and currenly searching for a job to expand my knowledge and experience. 
                             While aiming to leverage my academic experience and knowledge, I am also keen on learning new things that a job environment has to offer me.
                             I am passionate in designing and developing beautful things. "Simply Beautiful" is what I always aiming for.
-                           
-                            
-                            
                         </p>
+                        
                          
                     </div>
                     
@@ -54,18 +57,5 @@
             </div>   
         </div>
     </body>
-    <script>
-        window.onscroll = function() {stickyFunction()};
-        
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-        
-        function stickyFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-        </script>
+    <script src="main.js"></script>
 </html>
