@@ -10,6 +10,7 @@
     <body>
         
         <!-- header -->
+
         <div class="header">
             <div class="hbody text-center"> 
                 <h1>SHEIN THU AUNG</h1>
@@ -23,20 +24,24 @@
         </div>
 
         <!-- Navigation Bar -->
-        <div class='navigation' id="navbar">
-            
-            <ul class="list-inline link">
-                <a class="logo_text" href="">SHEIN</a>
-                <li><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">PORTFOLIO</a></li>
-                <li><a href="">CONTACT</a></li> 
-                
-            </ul>
-        </div>
-        
+
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <a class="navbar-brand logo_text" href="#">Shein</a>
+            <button class="navbar-toggler custom" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="#">About</a>
+                <a class="nav-item nav-link active" href="#">Project</a>
+                <a class="nav-item nav-link active" href="#">Contact</a>
+              </div>
+            </div>
+          </nav>
+
         <!-- About Me -->
+        
         <div class="about">
             <div class="container">
                 <div class="about_title text-center">
@@ -44,19 +49,20 @@
                     <hr>
                 </div>
                 <div class="text">
-                    <div class="intro col-md-8">
+                    <div class="intro col-7">
                         <h4>Hi, welcome. I am Shein Thu Aung. Nice to meet you!</h4><br>
                         <p>
-                            I was born in Myanmar and I am 22 now. Graduated from James Cook University (Singapore) at 2020 and currenly searching for a job to expand my knowledge and experience. 
+                            I was born in Myanmar and I am 22 now. Graduated from James Cook University (Singapore) in 2020 and am currently searching for a job to expand my knowledge and experience. 
                             While aiming to leverage my academic experience and knowledge, I am also keen on learning new things that a job environment has to offer me.
-                            I am passionate in designing and developing beautful things. "Simply Beautiful" is what I always aiming for.
-                        </p>
-                                                
-                    </div>
-                    
+                            I am passionate about designing and developing beautiful things. "Simply Beautiful" is what I am always aiming for.
+                        </p>                                                
+                    </div>                    
                 </div>
             </div>   
         </div>
+        
     </body>
-    <script src="main.js"></script>
+    <script src="bootstrap/jquery/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </html>
