@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
     background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
@@ -196,7 +199,7 @@ h1,h2,h3, .btn {
   }
   
 .bio .col {
-    border: 2px solid #00c6d7;
+    border: 2px solid #333;
     background-color: #fafafa;
 }
 .bio .col1 {
@@ -207,6 +210,7 @@ h1,h2,h3, .btn {
 }
 .bio .col3 {
     border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .bio .col4 {
     border-bottom-right-radius: 20px;
@@ -217,6 +221,13 @@ h1,h2,h3, .btn {
   
 .bio .row:not(:last-child) .col {
     border-bottom-width: 0;
+}
+
+
+/* project */
+
+.project .project_list .row{
+    padding:30px 0;
 }
 /* footer */
 .footer{
